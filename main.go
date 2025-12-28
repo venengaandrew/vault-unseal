@@ -36,7 +36,7 @@ const (
 	defaultCheckInterval  = 30 * time.Second
 	defaultTimeout        = 15 * time.Second
 	configRefreshInterval = 15 * time.Second
-	minimumNodes          = 3
+	minimumNodes          = 1
 )
 
 // Config is a combo of the flags passed to the cli and the configuration file (if used).
